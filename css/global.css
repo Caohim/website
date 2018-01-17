@@ -77,17 +77,6 @@ table {
 }
 
 @font-face {
-  font-family: 'caohim';
-  src: url('../fonts/caohim.eot?-tl6tbo');
-  src: url('../fonts/caohim.eot?#iefix-tl6tbo') format('embedded-opentype'),
-       url('../fonts/caohim.ttf?-tl6tbo') format('truetype'),
-       url('../fonts/caohim.woff?-tl6tbo') format('woff'),
-       url('../fonts/caohim.svg?-tl6tbo#caohim') format('svg');
-  font-weight: normal;
-  font-style:  normal;
-}
-
-@font-face {
   font-family: 'Vollkorn';
   src: url('../fonts/Vollkorn-Italic.eot'); /* IE9 Compat Modes */
   src: url('../fonts/Vollkorn-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -97,6 +86,17 @@ table {
        
   font-style:   italic;
   font-weight:  400;
+}
+
+@font-face {
+  font-family: 'caohim';
+  src:url('../fonts/caohim.eot?-cuggzg');
+  src:url('../fonts/caohim.eot?#iefix-cuggzg') format('embedded-opentype'),
+    url('../fonts/caohim.woff?-cuggzg') format('woff'),
+    url('../fonts/caohim.ttf?-cuggzg') format('truetype'),
+    url('../fonts/caohim.svg?-cuggzg#caohim') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="i-"], [class*=" i-"] {
@@ -111,30 +111,82 @@ table {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.i-letter:before {
-  content: "\e600";
-}
-/*.i-mail:before {
-  content: "\e601";
-}*/
-.i-twitter:before {
-  content: "\e602";
-}
-/*.i-twitter2:before {
-  content: "\e603";
-}
-.i-github2:before {
-  content: "\e604";
-}*/
-/*.i-linkedin2:before {
-  content: "\e605";
-}*/
-.i-linkedin:before {
-  content: "\e606";
-}
 .i-codepen:before {
-  content: "\e607";
+  content: "\63";
 }
+.i-home:before {
+  content: "\76";
+}
+.i-image:before {
+  content: "\70";
+}
+.i-location:before {
+  content: "\6d";
+}
+.i-gift:before {
+  content: "\6a";
+}
+.i-happy:before {
+  content: "\7a";
+}
+.i-mail:before {
+  content: "\65";
+}
+.i-user:before {
+  content: "\75";
+}
+.i-export:before {
+  content: "\64";
+}
+.i-heart:before {
+  content: "\61";
+}
+.i-star:before {
+  content: "\79";
+}
+.i-house:before {
+  content: "\68";
+}
+.i-search:before {
+  content: "\73";
+}
+.i-cog:before {
+  content: "\77";
+}
+.i-trophy:before {
+  content: "\72";
+}
+.i-graduation:before {
+  content: "\62";
+}
+.i-calendar:before {
+  content: "\6b";
+}
+.i-screen:before {
+  content: "\6e";
+}
+.i-archive:before {
+  content: "\71";
+}
+.i-github:before {
+  content: "\67";
+}
+.i-twitter:before {
+  content: "\74";
+}
+.i-facebook:before {
+  content: "\66";
+}
+.i-googleplus:before {
+  content: "\6f";
+}
+.i-linkedin:before {
+  content: "\6c";
+}
+.i-instagram:before {
+  content: "\69";
+}
+
 
 
 /*
@@ -168,11 +220,11 @@ table {
 .u-full             { width   : 100%; }
 .u-row {
   max-width: 760px;
-  padding: 120px 20px;
+  padding: 80px 20px;
   margin: 0 auto;
 }
 .u-row + .u-row     { padding-top: 0; }
-.u-row--followed    { padding-bottom: 80px; }
+.u-row--followed    { padding-bottom: 50px; }
 
 .u-padding-r        { padding-right: 20px; }
 .u-padding-l        { padding-left: 20px; }
@@ -187,22 +239,6 @@ table {
 .u-clearfix {
   overflow: hidden;
   *zoom: 1;
-}
-
-.theme--blue h2,
-.theme--blue h3,
-.theme--blue h4 {
-  color: #d1e9fc;
-}
-.theme--blue p,
-.theme--blue a,
-.theme--blue li {
-  color: #8CB5C8;
-}
-.theme--blue a:hover,
-.theme--blue a:active,
-.theme--blue a:hover {
-  color: #FFF;
 }
 
 
@@ -222,37 +258,35 @@ table {
   outline: none;
 }
 html {
-  background: #FFF url("../img/fjord-reine.jpg") repeat-x center top;
-  background-attachment: fixed;
-  /*-webkit-background-size: cover;
-  background-size: cover;*/
+  background-color: #bfb29e;
   height: 100%;
-  min-height: 700px;
   width: 100%;
 }
 body {
-  font: italic normal 20px/1.5em 'Vollkorn', Georgia, Palatino, "Times New Roman", Times, serif;
-  color: #101d4d;
+  font: italic normal 20px/1.5em 'Vollkorn', Georgia, Palatino, 'Times New Roman', Times, serif;
+  color: #4c403a;
   text-align: left;
 }
 
 h1 {
-  font: 400 72px/1em 'Tomahack', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+  font: 400 92px/1em 'Tomahack', Helvetica, 'Helvetica Neue', Arial, sans-serif;
   text-transform: uppercase;
-  color: #16348c;
+  color: #ad9561;
 }
 h2, h3 {
-  font: 400 30px 'Tomahack', Helvetica, 'Helvetica Neue', Arial, sans-serif;
-  text-transform: uppercase;
-  color: #101d4d;
+  font: normal 30px 'Edmondsans Regular', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+  color: #bfb29e;
   margin: 20px 0 30px;
 }
-h4 {
-  /*font: 400 22px 'Edmondsans', Helvetica, 'Helvetica Neue', Arial, sans-serif;*/
+h3 i {
+  font-size: smaller;
 }
 
 p {
   margin-bottom: 25px;
+}
+strong {
+  font-weight: bold;
 }
 
 a {
@@ -261,37 +295,49 @@ a {
   -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
   text-decoration: underline;
+  color: #ad9561;
 }
 a:hover,
 a:active,
 a:focus {
   text-decoration: none;
-  color: #16348c;
+  color: #bfb29e;
 }
 
 blockquote {
   position: relative;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 1.3em;
   padding: 0 65px;
+  color: #2e2623;
 }
 blockquote:before {
-  content: '”';
+  content: '«';
   font-size: 150px;
   position: absolute;
-  top: -90px;
-  left: 0;
+  top: -79px;
+  left: -10px;
   z-index: -1;
-  color: #d1e9fc;
+  color: #bfb29e;
 }
 blockquote:after {
-  content: '„';
+  content: '»';
   font-size: 150px;
   position: absolute;
+  top: -79px;
+  right: -5px;
+  z-index: -1;
+  color: #bfb29e;
+}
+body.lang--en .blockquote:before {
+  content: '”';
+  left: 0;
+}
+body.lang--en .blockquote:after {
+  content: '„';
+  top: auto;
   bottom: -90px;
   right: 0;
-  z-index: -1;
-  color: #d1e9fc;
 }
 
 
@@ -302,46 +348,79 @@ blockquote:after {
  */
 
 .site-header {
+  background: #4c403a url('../img/pattern.png') repeat center top;
   position: relative;
   z-index: 8;
-  min-height: 650px;
+  height: 408px;
+  border-bottom: 2px solid #c0b39f;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+}
+.site-header:before {
+  content: '';
+  background: transparent url('../img/sep-header-sand.png') repeat-x center top;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -160px;
+  width: 320px;
+  height: 480px;
 }
 .site-header .u-row {
-  padding-top: 80px;
+  padding-top: 95px;
+  padding-bottom: 30px;
   position: relative;
 }
 .author-title {
-  font: normal 30px 'Vollkorn', Georgia, Palatino, "Times New Roman", Times, serif;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-transform: none;
-  color: #8CB5C8;
+  color: #bfb29e;
+}
+.author-title + .author-title {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .social-item {
   display: inline-block;
 }
 .social-link {
-  font-size: 22px;
-  color: #8CB5C8;
-  text-decoration: none;
+  display: inline-block;
   margin: 0 10px;
+  font-size: 33px;
+  text-decoration: none;
+}
+.social-link:hover,
+.social-link:active,
+.social-link:focus {
+  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -o-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
 }
 
 .about {
-  background-color: #bad7e4;
+  background-color: #eeece8;
 }
-.intro {
-  font-weight: bold;
+.about p {
+  color: #6f615a;
+}
+.about strong {
+  color: #4c403a;
 }
 
 .clients {
   position: relative;
-  background-color: #101d4d;
+  background-color: #e4e0da;
+  padding-bottom: 30px;
 }
 .clients:before {
   content: '';
-  background: transparent url("../img/sep-middle-blue-light.png") repeat-x center top;
+  background: transparent url('../img/sep-middle-sand.png') repeat-x center top;
   position: absolute;
   top: -69px;
   left: 50%;
@@ -349,27 +428,51 @@ blockquote:after {
   width: 215px;
   height: 125px;
 }
-.clients:after {
-  content: '';
-  background: transparent url("../img/sep-top-blue-light.png") repeat-x center top;
-  position: absolute;
-  bottom: -11px;
-  left: 50%;
-  margin-left: -107px;
-  width: 215px;
-  height: 47px;
+.clients h2,
+.clients h3 {
+  color: #bfb29e;
+}
+.clients h4 {
+  color: #4c403a;
+}
+.clients p,
+.clients a,
+.clients li {
+  color: #4c403a;
+}
+.clients a {
+  color: #ad9561;
+}
+.clients li {
+  font: normal 20px/1.5em 'Edmondsans Regular', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+}
+.clients a:hover,
+.clients a:active,
+.clients a:focus {
+  color: #bfb29e;
 }
 .clients-list {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2;
 }
+.clients-list small {
+  font-size: small;
+  padding-top: 7px;
+}
 
+.recognitions-list {
+  background-color: #eeece8;
+  padding: 20px 40px;
+}
 .recognition {
-  padding: 20px 0;
+  padding: 30px 0;
+}
+.recognition li {
+  font: normal 16px/1.75em 'Edmondsans Regular', Helvetica, 'Helvetica Neue', Arial, sans-serif;
 }
 .recognition + .recognition {
-  border-top: 1px solid #4e6a90;
+  border-top: 1px solid #d6cfc3;
 }
 .recognition-project {
   font: normal 25px 'Edmondsans Regular', Helvetica, 'Helvetica Neue', Arial, sans-serif;
@@ -381,26 +484,72 @@ blockquote:after {
   margin-bottom: 0;
 }
 
+.insta {
+  position: relative;
+  background-color: #2e2623;
+  color: #bfb29e;
+  padding-top: 15px;
+}
+.insta:before {
+  content: '';
+  background: transparent url('../img/sep-middle-sand.png') repeat-x center top;
+  position: absolute;
+  top: -69px;
+  left: 50%;
+  margin-left: -107px;
+  width: 215px;
+  height: 125px;
+}
+.insta .u-row {
+  padding-top: 60px;
+}
+.insta h3 {
+  margin-bottom: 50px;
+}
+.insta-list-line {
+  padding-bottom: 30px;
+}
+.insta-item-wrapper {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+}
+.insta-item-wrapper + .insta-item-wrapper {
+  padding-left: 10px;
+  padding-right: 0;
+}
+.insta-item {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.insta-item-wrapper figcaption {
+  font-size: 18px;
+  line-height: 1.25em;
+  margin-top: 10px;
+}
+
 .site-main {
   position: relative;
   z-index: 6;
 }
+.site-main:after {
+  content: '';
+  background: transparent url('../img/sep-top-sand.png') repeat-x center top;
+  position: absolute;
+  bottom: -11px;
+  left: 50%;
+  margin-left: -107px;
+  width: 215px;
+  height: 47px;
+}
+
 
 .site-footer {
   position: relative;
   z-index: 4;
-  background-color: #FFF;
+  background-color: #eeece8;
   overflow: hidden;
-  padding-bottom: 50px;
-}
-.site-footer:after {
-  content: '';
-  background: #FFF url("../img/sea.jpg") repeat-x center top;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 50px;
-  width: 100%;
 }
 
 .page-tools {
@@ -421,6 +570,13 @@ blockquote:after {
  * -----------------------------
  */
 
+/* Small-ish */
+@media all and (max-width:700px) {
+  .site-header:before {
+    background-image: none;
+  }
+}
+
 /* Small */
 @media all and (max-width:600px) {
   .u-half,
@@ -437,8 +593,38 @@ blockquote:after {
     padding-left: 0;
   }
 
+  .author {
+    font-size: 72px;
+  }
+  .author-title {
+    font-size: 23px;
+  }
   blockquote {
     font-size: 24px;
+  }
+  blockquote:before {
+    font-size: 100px;
+    top: -48px;
+  }
+  blockquote:after {
+    font-size: 100px;
+    top: -48px;
+  }
+
+  .insta-item-wrapper {
+    float: none;
+    width: auto;
+    padding-right: 0;
+    padding-bottom: 40px;
+  }
+  figcaption {
+    text-align: center;
+  }
+  .insta-item-wrapper + .insta-item-wrapper {
+    padding-left: 0;
+  }
+  .insta-list-line {
+    padding-bottom: 0;
   }
 }
 
@@ -450,11 +636,8 @@ blockquote:after {
     min-height: 0;
   }
   body {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.5em;
-  }
-  h2, h3 {
-    font-size: 23px;
   }
   blockquote {
     padding-right: 25px;
@@ -462,12 +645,12 @@ blockquote:after {
     font-size: 20px;
   }
   blockquote:before {
-    font-size: 100px;
-    top: -60px;
+    font-size: 60px;
+    top: -5px;
   }
   blockquote:after {
-    font-size: 100px;
-    bottom: -50px;
+    font-size: 60px;
+    top: -5px;
   }
 
   .u-row {
@@ -476,7 +659,7 @@ blockquote:after {
   }
 
   .site-header {
-    min-height: 0;
+    height: auto;
   }
   .site-header .u-row {
     padding-top: 55px;
@@ -487,7 +670,7 @@ blockquote:after {
   }
 
   .author {
-    font-size: 40px;
+    font-size: 50px;
   }
   .author-title {
     font-size: 20px;
@@ -499,7 +682,15 @@ blockquote:after {
             column-count: 1;
   }
 
+  .recognition {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
   .recognition-project {
     font-size: 20px;
+  }
+  .recognitions-list {
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }

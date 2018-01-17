@@ -3,7 +3,7 @@
 
   <head>
     <title>Caohim | Développeur Front-end</title>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -61,18 +61,19 @@
   <body>
     <div class="wrapper">
 
-      <header class="site-header u-text-center" role="heading">
+      <header class="site-header" role="heading">
         <div class="u-row">
           <!-- Tea or coffee? -->
           <h1 class="author">Caohim</h1>
-          <h2 class="author-title">Développeur front-end</h2>
+          <h2 class="author-title">/&nbsp;Concepteur de sites web depuis 2011</h2>
+          <h2 class="author-title">/&nbsp;Développeur front-end</h2>
           <ul class="social">
-            <li class="social-item"><a href="mailto:info@caohim.com" class="social-link" title="Écrivez-moi&nbsp;!"><i class="i-letter"></i><span class="u-placeholder">Email</span></a></li>
+            <li class="social-item"><a href="mailto:info@caohim.com" class="social-link" title="Écrivez-moi&nbsp;!"><i class="i-mail"></i><span class="u-placeholder">Email</span></a></li>
             <li class="social-item"><a href="//twitter.com/caohim" class="social-link" title="Mon compte Twitter" target="_blank"><i class="i-twitter"></i><span class="u-placeholder">Twitter</span></a></li>
             <li class="social-item"><a href="//codepen.io/caohim" class="social-link" title="Mes expérimentations sur Codepen" target="_blank"><i class="i-codepen"></i><span class="u-placeholder">Codepen</span></a></li>
             <li class="social-item"><a href="//linkedin.com/in/kevin-d-60a49646/" class="social-link" title="Mon profil sur LinkedIn" target="_blank"><i class="i-linkedin"></i><span class="u-placeholder">LinkedIn</span></a></li>
           </ul>
-          <div class="page-tools"><a href="./en.php" title="See page in English">EN</a> // FR</div>
+          <?php // <div class="page-tools"><a href="./en.php" title="See page in English">EN</a> // FR</div> ?>
         </div>
       </header>
 
@@ -80,21 +81,24 @@
         <section class="about">
           <h2 class="u-outline">À propos</h2>
           <div class="u-row u-clearfix">
+            <!-- Flash on F or D? -->
             <div class="u-half u-left u-padding-r">
-              <h3><i class="i-marker"></i> En ce moment</h3>
-              <p class="intro">Vis actuellement à Liège (Belgique) et travaille en tant que freelance comme développeur front-end. C’est ainsi que l’on nomme le maillon entre un designer et un développeur, ayant un pied dans les deux matières à la fois ; yup&nbsp;! Plus génériquement, je suis un concepteur de sites web.</p>
-              <p>Sinon, vous me trouverez devant mon ordinateur à trifouiller et expérimenter, ou simplement à l'extérieur, sous un arbre, à sourire aux couleurs de l’automne en forêt&nbsp;!</p>
+              <h3><i class="i-location"></i> Coup de main&nbsp;?</h3>
+              <p>Basé à <strong>Liège</strong> (Belgique), je travaille comme <strong>développeur front-end</strong> pour différentes agences. En tant que <strong>freelance</strong>, je peux aussi <strong>travailler directement avec vous</strong> pour réaliser entièrement votre site web.</p>
+              <p><strong>Indépendant, seul ou PME ? Je vous aide à vous faire votre place sur Internet !</strong></p>
+              <p><strong>Prenons contact&nbsp;: <a href="mailto:info@caohim.com">info@caohim.com</a></strong></p>
             </div>
             <div class="u-half u-left u-padding-l">
-              <h3><i class="i-men"></i> En bref</h3>
-              <p class="intro">Observateur, avec une soif d’apprendre chaque jour, je n’hésite jamais à m’engager entièrement dans ce que je fais, en mettant l’accent sur la qualité et les détails face à la quantité.</p>
-              <p>À côté de cela, je prends plaisir à contempler la nature, écouter et vivre la musique (particulièrement pagan, folk et métal), marcher dans les forêts wallonnes, m’extasier devant les paysages scandinaves, déguster des crêpes bretonnes et de l’hydromel. Un petit mélange de tout cela, entre autres&nbsp;!</p>
+              <h3><i class="i-user"></i> À propos</h3>
+              <p>Observateur, avec une soif d’apprendre chaque jour, je n’hésite jamais à m’engager entièrement dans ce que je fais, en mettant l’accent sur <strong>la qualité et les détails</strong> face à la quantité.</p>
+              <p>Il m’est agréable de pouvoir <strong>prendre le temps de vous expliquer</strong> les enjeux d’un bon site, de vous proposer <strong>des solutions sur mesure et répondre à vos questions</strong>. C’est mon travail de vous <strong>faciliter l’accès et la gestion de votre image</strong> sur la toile.</p>
             </div>
           </div>
         </section>
-        <section class="clients theme--blue">
+        <section class="clients">
           <h2 class="u-outline">Projets</h2>
           <div class="u-row u-row--followed">
+            <!-- Online or offline? -->
             <h3><i class="i-star"></i> Clients</h3>
             <ul class="clients-list">
               <li>OTAN (NATO)</li>
@@ -108,10 +112,11 @@
               <li>Quatuor</li>
               <li>Jean-Philippe Darcis</li>
               <li>BCO Aviation</li>
-              <li>…et bien d’autres&nbsp;!</li>
+              <li><small>…parmi d’autres&nbsp;!</small></li>
             </ul>
           </div>
           <div class="u-row">
+            <!-- TS or Discord? -->
             <h3><i class="i-trophy"></i> Reconnaissances</h3>
             <ul class="recognitions-list">
               <li class="recognition">
@@ -174,11 +179,37 @@
             </ul>
           </div>
         </section>
+        <section class="insta">
+          <h2 class="u-outline">Photos</h2>
+          <div class="u-row">
+            <!-- Instagram with or without filters? -->
+            <h3><i class="i-instagram"></i> Et maintenant… une pause en images&nbsp;!</h3>
+            <div class="insta-list">
+              <div class="insta-list-line u-clearfix">
+                <figure class="insta-item-wrapper">
+                  <img src="./img/social.jpg" alt="" class="insta-item" />
+                  <figcaption>"Caption" // #watever #watever #watever</figcaption>
+                </figure>
+                <figure class="insta-item-wrapper">
+                  <img src="./img/social.jpg" alt="" class="insta-item" />
+                  <figcaption>"Caption caption caption caption" // #watever #watever #watever</figcaption>
+                </figure>
+              </div>
+              <div class="insta-list-line u-clearfix">
+                <figure class="insta-item-wrapper">
+                  <img src="./img/social.jpg" alt="" class="insta-item" />
+                  <figcaption>"Caption" // #watever</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer class="site-footer u-text-center">
         <div class="u-row">
-          <blockquote>Je suis convaincu qu’il existe un juste milieu entre une certaine admiration pour la nature et une passion pour les technologies.</blockquote>
+          <!-- Folk 'n metal? -->
+          <blockquote>Je suis convaincu qu’il existe un juste milieu entre une certaine bienveillance pour la nature et une passion pour les technologies.</blockquote>
         </div>
       </footer>
 
