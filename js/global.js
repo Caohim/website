@@ -35,7 +35,8 @@
               dots: true
             },
             600: {
-              items: 2
+              items: 2,
+              dots: true
             }
           }
         });
