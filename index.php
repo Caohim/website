@@ -19,30 +19,19 @@
 
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="./favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="./favicons/favicon-194x194.png" sizes="194x194">
-    <link rel="icon" type="image/png" href="./favicons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="./favicons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="./favicons/favicon-16x16.png" sizes="16x16">
-    <!--[if IE]>
-      <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <![endif]-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
     <link rel="manifest" href="./favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="msapplication-TileImage" content="./favicons/mstile-144x144.png">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#ad9561">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
     <meta name="HandheldFriendly" content="True">
     <link rel="stylesheet" media="all" type="text/css" href="./css/global.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="./css/owl.theme.default.css" />
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -184,23 +173,63 @@
           <div class="u-row">
             <!-- Instagram with or without filters? -->
             <h3><i class="i-instagram"></i> Et maintenant… une pause en images&nbsp;!</h3>
-            <div class="insta-list">
-              <div class="insta-list-line u-clearfix">
-                <figure class="insta-item-wrapper">
-                  <img src="./img/social.jpg" alt="" class="insta-item" />
-                  <figcaption>"Caption" // #watever #watever #watever</figcaption>
-                </figure>
-                <figure class="insta-item-wrapper">
-                  <img src="./img/social.jpg" alt="" class="insta-item" />
-                  <figcaption>"Caption caption caption caption" // #watever #watever #watever</figcaption>
-                </figure>
-              </div>
-              <div class="insta-list-line u-clearfix">
-                <figure class="insta-item-wrapper">
-                  <img src="./img/social.jpg" alt="" class="insta-item" />
-                  <figcaption>"Caption" // #watever</figcaption>
-                </figure>
-              </div>
+            <div id="js-carousel" class="insta-list owl-carousel owl-theme">
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-001.jpg" alt="Geometry" class="insta-item-illu" />
+                <figcaption>Geometry</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-002.jpg" alt="Substance" class="insta-item-illu" />
+                <figcaption>Substance</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-003.jpg" alt="Sublimation" class="insta-item-illu" />
+                <figcaption>Sublimation</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-004.jpg" alt="Projecteur nocturne" class="insta-item-illu" />
+                <figcaption>Projecteur nocturne</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-005.jpg" alt="Rêves de coton" class="insta-item-illu" />
+                <figcaption>Rêves de coton</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-006.jpg" alt="Assieds-toi, parle-toi&nbsp;!" class="insta-item-illu" />
+                <figcaption>Assieds-toi, parle-toi&nbsp;!</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-007.jpg" alt="Have a seat Mr. Snow" class="insta-item-illu" />
+                <figcaption>Have a seat Mr. Snow</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-008.jpg" alt="L’empreinte est vivace" class="insta-item-illu" />
+                <figcaption>L’empreinte est vivace</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-009.jpg" alt="Lofoten" class="insta-item-illu" />
+                <figcaption>Lofoten</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-010.jpg" alt="La route" class="insta-item-illu" />
+                <figcaption>La route</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-011.jpg" alt="Le lien perdu" class="insta-item-illu" />
+                <figcaption>Le lien perdu</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-012.jpg" alt="Blanche mer" class="insta-item-illu" />
+                <figcaption>Blanche mer</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-013.jpg" alt="Ça n’a pas de sens" class="insta-item-illu" />
+                <figcaption>Ça n’a pas de sens</figcaption>
+              </figure>
+              <figure class="insta-item js-carousel-item">
+                <img src="./img/insta-014.jpg" alt="So you think you're free?" class="insta-item-illu" />
+                <figcaption>So you think you're free?</figcaption>
+              </figure>
             </div>
           </div>
         </section>
@@ -214,5 +243,9 @@
       </footer>
 
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/global.js"></script>
   </body>
 </html>
