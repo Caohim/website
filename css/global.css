@@ -500,6 +500,16 @@ body.lang--en .blockquote:after {
   width: 215px;
   height: 125px;
 }
+.insta:after {
+  content: '';
+  background: transparent url('../img/sep-top-sand.png') repeat-x center top;
+  position: absolute;
+  bottom: -11px;
+  left: 50%;
+  margin-left: -107px;
+  width: 215px;
+  height: 47px;
+}
 .insta .u-row {
   padding-top: 60px;
 }
@@ -574,17 +584,6 @@ body.lang--en .blockquote:after {
   position: relative;
   z-index: 6;
 }
-.site-main:after {
-  content: '';
-  background: transparent url('../img/sep-top-sand.png') repeat-x center top;
-  position: absolute;
-  bottom: -11px;
-  left: 50%;
-  margin-left: -107px;
-  width: 215px;
-  height: 47px;
-}
-
 
 .site-footer {
   position: relative;
