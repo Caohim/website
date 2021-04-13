@@ -64,6 +64,7 @@ table {
        url('../fonts/Tomahack.svg#7fd5a18e89f7818327fe30f3ca00b978') format('svg'); /* Legacy iOS */
   font-style:   normal;
   font-weight:  400;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Edmondsans Regular';
@@ -74,6 +75,7 @@ table {
        url('../fonts/Edmondsans-Regular.svg#7bbba12411bdd1eb69cf9e8a612ada82') format('svg'); /* Legacy iOS */
   font-style:   normal;
   font-weight:  400;
+  font-display: swap;
 }
 
 @font-face {
@@ -86,6 +88,7 @@ table {
        
   font-style:   italic;
   font-weight:  400;
+  font-display: swap;
 }
 
 @font-face {
@@ -97,6 +100,7 @@ table {
     url('../fonts/caohim.svg?-cuggzg#caohim') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 [class^="i-"], [class*=" i-"] {
